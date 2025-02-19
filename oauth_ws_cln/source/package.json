@@ -1,0 +1,14 @@
+{
+  "name": "ws_cln",
+  "version": "1.0.0",
+  "description": "Node.js ws_cln",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "axios": "^1.7.9"
+  }
+}
+

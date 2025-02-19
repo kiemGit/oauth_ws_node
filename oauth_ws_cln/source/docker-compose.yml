@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app_cln:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ws_cln
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
